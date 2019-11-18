@@ -1,0 +1,23 @@
+name: fitness
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  spritewidget:
+    path: ../../
+  mobile_popup: ^1.2.0
+  shared_preferences: ^0.5.3+4
+  # Add the dependency for the Firebase Core Flutter SDK
+  firebase_core: ^0.4.0+9
+  firebase_remote_config: ^0.2.0+7
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/jumpingjack.json
+    - assets/jumpingjack.png
